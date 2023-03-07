@@ -6,4 +6,8 @@ class Cube : Shape, InterFaceShape
     {
         return Hieght * Width;
     }
+    public double getLeinghts()
+    {
+        return 2 * (Hieght + Width);
+    }
 }
